@@ -131,7 +131,7 @@ const Documentation = () => {
           )}
           
           <div style={styles.footer}>
-             <p style={{ color: '#888', fontSize: '12px' }}>© 2024 TopTechDial Knowledge Center. All technical data is strictly proprietary.</p>
+             <p style={{ color: '#858383', fontSize: '12px' }}>© 2024 TopTechDial Knowledge Center. All technical data is strictly proprietary.</p>
           </div>
        </div>
     </div>
