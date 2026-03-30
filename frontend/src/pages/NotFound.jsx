@@ -36,7 +36,7 @@ const NotFound = () => {
 };
 
 const styles = {
-    container: { minHeight: '100vh', background: '#050505', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px', position: 'relative', overflow: 'hidden' },
+    container: { minHeight: '100vh', background: '#1c0808', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px', position: 'relative', overflow: 'hidden' },
     blurBg: { position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '600px', height: '600px', background: 'radial-gradient(circle, rgba(255, 94, 54, 0.05) 0%, transparent 70%)', zIndex: 0 },
     errorBox: { maxWidth: '600px', padding: '60px 40px', textAlign: 'center', zIndex: 1, border: '1px solid var(--primary-low)' },
     iconCircle: { width: '100px', height: '100px', borderRadius: '50%', background: 'rgba(255, 94, 54, 0.03)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 30px' },
