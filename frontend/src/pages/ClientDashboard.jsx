@@ -116,7 +116,7 @@ const ClientDashboard = () => {
                                       <h4 style={{ margin: 0, fontSize: '17px', color: 'white' }}>{list.title}</h4>
                                       {list.isApproved && <ShieldCheck size={16} color="var(--success)" />}
                                    </div>
-                                   <div style={{ fontSize: '12px', color: '#666', marginTop: '4px' }}>{list.category} • {list.city}</div>
+                                   <div style={{ fontSize: '12px', color: '#6c6b6b', marginTop: '4px' }}>{list.category} • {list.city}</div>
                                 </div>
                                 <div style={styles.listingStatGrid}>
                                    <div style={styles.lStat}><div style={styles.lStatVal}>{list.views || 0}</div><div style={styles.lStatName}>Views</div></div>
