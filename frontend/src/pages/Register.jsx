@@ -159,7 +159,7 @@ const Register = () => {
 const styles = {
   container: { minHeight: '80vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '24px' },
   formCard: { maxWidth: '420px', width: '100%', padding: '32px' },
-  errAlert: { background: 'rgba(255, 59, 59, 0.1)', color: 'var(--danger)', padding: '12px', borderRadius: '8px', fontSize: '14px', marginBottom: '16px', border: '1px solid rgba(255, 59, 59, 0.2)' },
+  errAlert: { background: 'rgba(37, 31, 31, 0.1)', color: 'var(--danger)', padding: '12px', borderRadius: '8px', fontSize: '14px', marginBottom: '16px', border: '1px solid rgba(255, 59, 59, 0.2)' },
   inputGroup: { marginBottom: '16px' },
   label: { display: 'block', fontSize: '14px', fontWeight: '500', marginBottom: '6px', color: 'var(--text-muted)' },
   inputWrapper: { display: 'flex', alignItems: 'center', gap: '12px', background: 'rgba(255,255,255,0.02)', border: '1px solid var(--glass-border)', borderRadius: '8px', paddingLeft: '14px' },
