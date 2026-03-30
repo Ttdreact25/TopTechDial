@@ -149,7 +149,7 @@ const styles = {
   divider: {
     width: '1px',
     height: '35px',
-    background: '#EAEAEA',
+    background: '#dfdbdb',
   },
   queryWrapper: {
     flex: '2.5',
