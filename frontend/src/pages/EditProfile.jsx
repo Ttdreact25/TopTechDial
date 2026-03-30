@@ -330,7 +330,7 @@ const styles = {
     justifyContent: 'center',
     gap: '10px',
     cursor: 'pointer',
-    boxShadow: '0 8px 16px rgba(255, 94, 54, 0.3)',
+    boxShadow: '0 8px 16px rgba(254, 90, 49, 0.3)',
     transition: 'all 0.3s',
   }
 };
