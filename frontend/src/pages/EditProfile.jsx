@@ -268,7 +268,7 @@ const styles = {
     margin: '0 0 8px 0',
   },
   subtitle: {
-    color: '#666',
+    color: '#626161',
     fontSize: '16px',
     margin: 0,
   },
