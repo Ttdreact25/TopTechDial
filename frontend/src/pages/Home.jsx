@@ -135,7 +135,7 @@ const styles = {
     borderRadius: '16px',
     padding: '4px',
     width: '100%',
-    boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+    boxShadow: '0 20px 40px rgba(14, 12, 12, 0.4)',
     alignItems: 'center',
     height: '68px',
   },
