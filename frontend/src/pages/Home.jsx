@@ -214,7 +214,7 @@ const styles = {
     padding: '32px 20px',
     borderRadius: '20px',
     background: 'rgba(18, 16, 16, 0.03)',
-    border: '1px solid rgba(255,255,255,0.05)',
+    border: '1px solid rgba(29, 22, 22, 0.05)',
   },
   iconWrapper: {
     width: '70px',
