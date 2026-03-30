@@ -261,7 +261,7 @@ const styles = {
     padding: '32px',
   },
   errAlert: {
-    background: 'rgba(255, 59, 59, 0.1)',
+    background: 'rgba(243, 73, 73, 0.1)',
     color: 'var(--danger)',
     padding: '12px',
     borderRadius: '8px',
