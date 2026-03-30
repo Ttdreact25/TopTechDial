@@ -247,7 +247,7 @@ const styles = {
     listingStatGrid: { display: 'flex', gap: '25px', padding: '0 20px' },
     lStat: { textAlign: 'center' },
     lStatVal: { fontSize: '15px', fontWeight: 'bold' },
-    lStatName: { fontSize: '10px', color: '#555' },
+    lStatName: { fontSize: '10px', color: '#5a5959' },
     listingActions: { display: 'flex', gap: '10px' },
     roundAction: { width: '36px', height: '36px', borderRadius: '50%', background: 'rgba(255,255,255,0.03)', border: 'none', color: '#888', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' },
     growthCard: { padding: '30px', background: 'linear-gradient(180deg, rgba(0, 211, 75, 0.05) 0%, transparent 100%)' },
