@@ -318,7 +318,7 @@ const styles = {
   },
   submitBtn: {
     marginTop: '12px',
-    background: '#FF5E36',
+    background: '#fe5f37',
     color: 'white',
     border: 'none',
     borderRadius: '12px',
