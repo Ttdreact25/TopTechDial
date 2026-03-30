@@ -176,7 +176,7 @@ const styles = {
     gap: '20px',
   },
   searchBtn: {
-    background: '#FF5E36',
+    background: '#fe5b32',
     border: 'none',
     borderRadius: '12px',
     width: '56px',
