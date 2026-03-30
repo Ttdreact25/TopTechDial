@@ -10,7 +10,7 @@ import {
 const ClientDashboard = () => {
     const { user } = useContext(AuthContext);
     const [myListings, setMyListings] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [setLoading] = useState(true);
     const [stats, setStats] = useState({ total_views: 0, enquiries: 0, rating: 0 });
 
     const fetchClientData = async () => {
