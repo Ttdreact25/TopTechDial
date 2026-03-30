@@ -283,7 +283,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     gap: '12px',
-    background: 'rgba(255,255,255,0.02)',
+    background: 'rgba(27, 8, 8, 0.02)',
     border: '1px solid var(--glass-border)',
     borderRadius: '8px',
     paddingLeft: '14px',
