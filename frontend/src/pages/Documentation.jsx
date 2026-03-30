@@ -152,7 +152,7 @@ const styles = {
   para: { fontSize: '16px', color: 'var(--text-light)', lineHeight: '1.8', marginBottom: '40px' },
   grid: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', marginBottom: '40px' },
   infoBox: { padding: '20px', background: 'rgba(255, 94, 54, 0.05)', borderRadius: '15px', border: '1px solid rgba(255, 94, 54, 0.2)', marginBottom: '40px', display: 'flex', gap: '15px', fontSize: '14px' },
-  alertBox: { padding: '20px', background: 'rgba(0, 163, 255, 0.05)', borderRadius: '15px', border: '1px solid rgba(0, 163, 255, 0.2)', marginBottom: '40px', display: 'flex', gap: '15px', alignItems: 'center', fontSize: '14px', color: 'var(--info)' },
+  alertBox: { padding: '20px', background: 'rgba(3, 163, 255, 0.05)', borderRadius: '15px', border: '1px solid rgba(0, 163, 255, 0.2)', marginBottom: '40px', display: 'flex', gap: '15px', alignItems: 'center', fontSize: '14px', color: 'var(--info)' },
   list: { listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '15px', color: 'var(--text-muted)' },
   codebaseTable: { border: '1px solid var(--border-glass)', borderRadius: '15px', padding: '20px', background: 'rgba(255,255,255,0.02)' },
   codeRow: { display: 'flex', justifyContent: 'space-between', padding: '12px 20px', borderBottom: '1px solid #111', fontSize: '14px', color: 'var(--text-light)' },
