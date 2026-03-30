@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+dist/
+build/
+*.log
+
+# Project specific
+tmp/
+desktop/node_modules/
+desktop/dist/
+frontend/node_modules/
+frontend/dist/
+
+# System
+.DS_Store
+Thumbs.db

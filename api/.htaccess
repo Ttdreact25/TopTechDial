@@ -1,0 +1,56 @@
+# Enable Rewrite Engine
+RewriteEngine On
+CGIPassAuth On
+
+# Pass Authorization Header to PHP
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# Enable CORS for all requests (including errors/404s if mod_headers is enabled)
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+</IfModule>
+
+# Auth endpoints mapping
+# If the file exists with .php extension, rewrite it
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^auth/([^/.]+)$ auth/$1.php [L]
+
+# Explicit mapping for check-owner (since it might be special or have different naming)
+RewriteRule ^auth/check-owner$ auth/check-owner.php [L]
+RewriteRule ^auth/owner-status$ auth/check-owner.php [L]
+
+# Users endpoint
+RewriteRule ^users/([^/.]+)$ users.php?action=$1 [L,QSA]
+RewriteRule ^users$ users.php [L,QSA]
+RewriteRule ^users/([0-9]+)$ users.php?id=$1 [L,QSA]
+
+# Businesses endpoint
+RewriteRule ^businesses/bulk-upload$ businesses.php?action=bulk-upload [L,QSA]
+RewriteRule ^businesses/all-listings$ businesses.php?action=all-listings [L,QSA]
+RewriteRule ^businesses/admin$ businesses.php?action=admin [L,QSA]
+RewriteRule ^businesses$ businesses.php [L,QSA]
+RewriteRule ^businesses/([0-9]+)$ business.php?id=$1 [L,QSA]
+RewriteRule ^businesses/cities$ cities.php [L,QSA]
+
+# Requests endpoint
+RewriteRule ^requests/check/([a-zA-Z0-9_-]+)$ requests.php?action=check&businessId=$1 [L,QSA]
+RewriteRule ^requests/admin$ requests.php?action=admin [L,QSA]
+RewriteRule ^requests/my-requests$ requests.php?action=my-requests [L,QSA]
+RewriteRule ^requests/([0-9]+)$ requests.php?id=$1 [L,QSA]
+RewriteRule ^requests$ requests.php [L,QSA]
+
+# Search Logs endpoint
+RewriteRule ^search-logs$ search-logs.php [L,QSA]
+
+# Reviews endpoint
+RewriteRule ^reviews/([0-9]+)$ reviews.php?businessId=$1 [L,QSA]
+RewriteRule ^reviews$ reviews.php [L,QSA]
+
+# Categories endpoint
+RewriteRule ^categories$ categories.php [L,QSA]
+RewriteRule ^categories/([0-9]+)$ categories.php?id=$1 [L,QSA]
+
