@@ -41,7 +41,7 @@ const Home = () => {
         <h1 style={styles.title}>
            {t('heroTitle_1')} {' '}
            <span style={{ color: 'var(--primary)' }}>{t('heroTitle_2')}</span><br/>
-           <span style={{ color: '#007AFF' }}>{t('heroTitle_3')}</span>
+           <span style={{ color: '#205287' }}>{t('heroTitle_3')}</span>
         </h1>
 
         <div style={styles.searchContainer}>
