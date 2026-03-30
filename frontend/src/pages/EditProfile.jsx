@@ -78,7 +78,7 @@ const EditProfile = () => {
             ...styles.alert,
             background: message.type === 'success' ? 'rgba(0, 211, 75, 0.1)' : 'rgba(224, 30, 90, 0.1)',
             color: message.type === 'success' ? '#00D34B' : '#E01E5A',
-            border: `1px solid ${message.type === 'success' ? '#00D34B' : '#E01E5A'}`
+            border: `1px solid ${message.type === 'success' ? '#02d14b' : '#E01E5A'}`
           }}>
             {message.text}
           </div>
