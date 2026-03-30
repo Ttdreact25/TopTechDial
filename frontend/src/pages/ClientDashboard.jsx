@@ -234,7 +234,7 @@ const styles = {
     statsGrid: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '25px', marginBottom: '40px' },
     statCard: { padding: '30px', display: 'flex', gap: '20px', alignItems: 'center', position: 'relative' },
     statIcon: { width: '56px', height: '56px', borderRadius: '18px', background: 'rgba(255, 94, 54, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center' },
-    statLabel: { fontSize: '11px', color: '#949494', textTransform: 'uppercase', letterSpacing: '1px' },
+    statLabel: { fontSize: '11px', color: '#8e8c8c', textTransform: 'uppercase', letterSpacing: '1px' },
     statValue: { fontSize: '32px', fontWeight: '900', color: 'white' },
     trendUp: { position: 'absolute', top: '20px', right: '20px', fontSize: '11px', color: 'var(--success)', background: 'rgba(0, 211, 75, 0.1)', padding: '4px 10px', borderRadius: '20px' },
     ratingBadge: { position: 'absolute', top: '20px', right: '20px', fontSize: '11px', color: 'var(--accent)', background: 'rgba(255, 179, 0, 0.1)', padding: '4px 10px', borderRadius: '20px' },
