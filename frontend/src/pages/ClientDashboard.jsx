@@ -243,7 +243,7 @@ const styles = {
     sectionHeader: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '40px', paddingBottom: '20px', borderBottom: '1px solid #1a1a1a' },
     listingList: { display: 'flex', flexDirection: 'column', gap: '15px' },
     listingItem: { padding: '15px', background: 'rgba(255,255,255,0.02)', borderRadius: '15px', border: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', gap: '15px' },
-    listingImg: { width: '60px', height: '60px', borderRadius: '10px', background: '#222', display: 'flex', alignItems: 'center', justifyContent: 'center' },
+    listingImg: { width: '60px', height: '60px', borderRadius: '10px', background: '#201f1f', display: 'flex', alignItems: 'center', justifyContent: 'center' },
     listingStatGrid: { display: 'flex', gap: '25px', padding: '0 20px' },
     lStat: { textAlign: 'center' },
     lStatVal: { fontSize: '15px', fontWeight: 'bold' },
