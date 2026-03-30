@@ -103,7 +103,7 @@ const Home = () => {
 const styles = {
   container: {
     paddingBottom: '80px',
-    background: '#111124ff',
+    background: 'rgb(17, 17, 32)',
     minHeight: '100vh',
   },
   hero: {
