@@ -159,7 +159,7 @@ const styles = {
     padding: '0 20px',
   },
   searchIcon: {
-    color: '#757575',
+    color: '#757070',
   },
   input: {
     background: 'transparent',
