@@ -80,7 +80,7 @@ const ClientDashboard = () => {
                         <div style={styles.trendUp}>+12.5%</div>
                     </div>
                     <div className="glass-card" style={styles.statCard}>
-                        <div style={{ ...styles.statIcon, background: 'rgba(0, 163, 255, 0.1)' }}><Users size={24} color="var(--info)" /></div>
+                        <div style={{ ...styles.statIcon, background: 'rgba(2, 162, 255, 0.1)' }}><Users size={24} color="var(--info)" /></div>
                         <div>
                             <div style={styles.statLabel}>Total Leads</div>
                             <div style={styles.statValue}>{stats.enquiries}</div>
