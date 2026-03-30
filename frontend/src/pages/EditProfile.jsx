@@ -217,7 +217,7 @@ const styles = {
   avatarFallback: {
     width: '100%',
     height: '100%',
-    background: 'linear-gradient(45deg, #fe5b33, #E01E5A)',
+    background: 'linear-gradient(45deg, #fe5b33, #ea1f5f)',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
