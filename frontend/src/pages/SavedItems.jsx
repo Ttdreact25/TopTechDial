@@ -111,7 +111,7 @@ const styles = {
   cardFooter: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid var(--glass-border)', paddingTop: '16px', marginTop: 'auto' },
   ratingSection: { display: 'flex', alignItems: 'center', gap: '6px' },
   viewBtn: { textDecoration: 'none', color: 'var(--primary)', fontSize: '13px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '6px' },
-  removeBtn: { background: 'rgba(224, 30, 90, 0.1)', color: '#E01E5A', border: 'none', borderRadius: '6px', padding: '6px', cursor: 'pointer', transition: 'all 0.2s' }
+  removeBtn: { background: 'rgba(224, 30, 90, 0.1)', color: '#e61e5d', border: 'none', borderRadius: '6px', padding: '6px', cursor: 'pointer', transition: 'all 0.2s' }
 };
 
 export default SavedItems;
