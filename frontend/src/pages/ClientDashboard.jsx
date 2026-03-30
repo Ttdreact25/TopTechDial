@@ -257,7 +257,7 @@ const styles = {
     eAvatar: { width: '36px', height: '36px', borderRadius: '50%', background: 'var(--primary-gradient)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '14px' },
     notifItem: { display: 'flex', gap: '10px', marginBottom: '12px', alignItems: 'flex-start' },
     notifDot: { width: '8px', height: '8px', borderRadius: '50%', background: 'var(--primary)', marginTop: '5px' },
-    toolItem: { padding: '25px 15px', background: 'rgba(245, 240, 240, 0.02)', borderRadius: '16px', textAlign: 'center', fontSize: '12px', color: '#888', display: 'flex', flexDirection: 'column', gap: '12px', alignItems: 'center', border: '1px solid var(--border-glass)', transition: 'all 0.3s' }
+    toolItem: { padding: '25px 15px', background: 'rgba(255, 253, 253, 0.02)', borderRadius: '16px', textAlign: 'center', fontSize: '12px', color: '#888', display: 'flex', flexDirection: 'column', gap: '12px', alignItems: 'center', border: '1px solid var(--border-glass)', transition: 'all 0.3s' }
 };
 
 export default ClientDashboard;
