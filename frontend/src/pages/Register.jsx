@@ -27,7 +27,9 @@ const Register = () => {
           alert('An Admin account already exists on this platform. Redirecting to Login.');
           navigate('/login');
         }
-      } catch (err) {}
+      } catch (err) {
+        console.error('Error checking owner status:', err);
+      }
     };
     
     checkOwner();
