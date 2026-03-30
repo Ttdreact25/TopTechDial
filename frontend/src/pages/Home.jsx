@@ -68,7 +68,7 @@ const Home = () => {
                 onChange={(e) => setSearch(e.target.value)} 
               />
               <div style={styles.actionIcons}>
-                 <Mic size={20} color="#007AFF" style={{ cursor: 'pointer' }} />
+                 <Mic size={20} color="#008cff" style={{ cursor: 'pointer' }} />
                  <button type="submit" style={styles.searchBtn}>
                     <SearchIcon size={22} color="white" />
                  </button>
