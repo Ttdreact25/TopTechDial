@@ -63,7 +63,7 @@ const ClientDashboard = () => {
                 <header style={styles.header}>
                     <div style={styles.headerLeft}>
                         <h1 style={{ fontSize: '32px', color: 'white' }}>Enterprise Hub</h1>
-                        <p style={{ color: '#878686' }}>Management suite for <span style={{ color: 'var(--primary)' }}>{user?.name}'s</span> verified agencies.</p>
+                        <p style={{ color: '#898686' }}>Management suite for <span style={{ color: 'var(--primary)' }}>{user?.name}'s</span> verified agencies.</p>
                     </div>
                     <button className="btn btn-primary" style={{ padding: '12px 25px' }}>
                         <Plus size={20} /> Register New Business
@@ -88,7 +88,7 @@ const ClientDashboard = () => {
                         <div style={styles.trendUp}>+4.8%</div>
                     </div>
                     <div className="glass-card" style={styles.statCard}>
-                        <div style={{ ...styles.statIcon, background: 'rgba(255, 179, 0, 0.1)' }}><Star size={24} color="var(--accent)" /></div>
+                        <div style={{ ...styles.statIcon, background: 'rgba(255, 179, 2, 0.1)' }}><Star size={24} color="var(--accent)" /></div>
                         <div>
                             <div style={styles.statLabel}>Trust Score</div>
                             <div style={styles.statValue}>{stats.rating}</div>
