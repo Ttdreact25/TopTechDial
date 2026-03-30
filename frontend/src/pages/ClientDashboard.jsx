@@ -143,7 +143,7 @@ const ClientDashboard = () => {
                               <h4 style={{ margin: 0 }}>Growth Forecast</h4>
                               <TrendingUp size={20} color="var(--success)" />
                            </div>
-                           <p style={{ fontSize: '12px', color: '#888', marginTop: '10px' }}>Based on recent organic search traffic patterns.</p>
+                           <p style={{ fontSize: '12px', color: '#929191', marginTop: '10px' }}>Based on recent organic search traffic patterns.</p>
                            <div style={styles.simulatedGraph}>
                               {[40, 65, 55, 90, 80, 100, 120].map((h, i) => (
                                 <div key={i} style={{ ...styles.graphBar, height: `${h}px` }} />
