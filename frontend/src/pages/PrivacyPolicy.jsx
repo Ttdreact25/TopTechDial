@@ -88,7 +88,7 @@ const styles = {
     section: { padding: '40px', marginBottom: '30px', border: '1px solid var(--border-glass)' },
     sectionHeader: { display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '20px' },
     list: { listStyle: 'none', marginTop: '20px', display: 'flex', flexDirection: 'column', gap: '10px' },
-    alertBox: { marginTop: '25px', padding: '15px', background: 'rgba(0, 163, 255, 0.05)', borderRadius: '12px', border: '1px solid rgba(0, 163, 255, 0.2)', display: 'flex', gap: '15px', alignItems: 'center', fontSize: '13px', color: 'var(--info)' },
+    alertBox: { marginTop: '25px', padding: '15px', background: 'rgba(30, 36, 40, 0.05)', borderRadius: '12px', border: '1px solid rgba(0, 163, 255, 0.2)', display: 'flex', gap: '15px', alignItems: 'center', fontSize: '13px', color: 'var(--info)' },
     footer: { display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '60px' }
 };
 
