@@ -185,7 +185,7 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     cursor: 'pointer',
-    boxShadow: '0 8px 16px rgba(255, 94, 54, 0.3)',
+    boxShadow: '0 8px 16px rgba(148, 66, 47, 0.71)',
     transition: 'transform 0.2s',
   },
   categories: {
