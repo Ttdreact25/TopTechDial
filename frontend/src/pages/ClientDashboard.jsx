@@ -185,7 +185,7 @@ const ClientDashboard = () => {
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px' }}>
                         <div>
                             <h3 style={{ fontSize: '24px', margin: 0, fontWeight: 'bold' }}>Enterprise Business Growth Toolkit</h3>
-                            <p style={{ color: '#8f8e8e', fontSize: '14px', marginTop: '5px' }}>Strategic extensions and AI-driven insights to amplify your brand's reach across the TopTechDial platform ecosystem.</p>
+                            <p style={{ color: '#989898', fontSize: '14px', marginTop: '5px' }}>Strategic extensions and AI-driven insights to amplify your brand's reach across the TopTechDial platform ecosystem.</p>
                         </div>
                         <button className="btn btn-secondary">Explore Expert Toolkit</button>
                     </div>
