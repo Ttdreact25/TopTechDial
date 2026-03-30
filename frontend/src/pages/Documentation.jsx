@@ -156,7 +156,7 @@ const styles = {
   list: { listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '15px', color: 'var(--text-muted)' },
   codebaseTable: { border: '1px solid var(--border-glass)', borderRadius: '15px', padding: '20px', background: 'rgba(255,255,255,0.02)' },
   codeRow: { display: 'flex', justifyContent: 'space-between', padding: '12px 20px', borderBottom: '1px solid #111', fontSize: '14px', color: 'var(--text-light)' },
-  footer: { marginTop: '100px', borderTop: '1px solid #0c0c0c', paddingTop: '30px' }
+  footer: { marginTop: '100px', borderTop: '1px solid #050505', paddingTop: '30px' }
 };
 
 export default Documentation;
