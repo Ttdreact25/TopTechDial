@@ -131,7 +131,7 @@ const styles = {
   },
   searchBox: {
     display: 'flex',
-    background: '#FFFFFF',
+    background: '#dacece',
     borderRadius: '16px',
     padding: '4px',
     width: '100%',
