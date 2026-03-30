@@ -7,7 +7,7 @@ const StaffPortal = () => {
     const { user } = useContext(AuthContext);
     const [stats, setStats] = useState({ approved: 0, pending: 0, reviews_moderated: 0 });
     const [activeListings, setActiveListings] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [setLoading] = useState(true);
 
     const fetchStaffData = async () => {
         try {
