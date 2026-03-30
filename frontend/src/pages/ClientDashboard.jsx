@@ -176,7 +176,7 @@ const ClientDashboard = () => {
                               </div>
                               <div style={{ fontSize: '10px', color: 'var(--primary)' }}>2m ago</div>
                            </div>
-                           <button style={{ width: '100%', background: 'none', border: '1px solid #333', color: '#888', borderRadius: '10px', padding: '12px', marginTop: '20px', fontSize: '12px', cursor: 'pointer' }}>View Unified Lead Center</button>
+                           <button style={{ width: '100%', background: 'none', border: '1px solid #313131', color: '#888', borderRadius: '10px', padding: '12px', marginTop: '20px', fontSize: '12px', cursor: 'pointer' }}>View Unified Lead Center</button>
                         </div>
                     </div>
                 </div>
