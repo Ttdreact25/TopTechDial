@@ -124,7 +124,7 @@ const styles = {
     brandIcon: { width: '32px', height: '32px', borderRadius: '8px', background: 'var(--primary-gradient)', display: 'flex', alignItems: 'center', justifyContent: 'center' },
     nav: { display: 'flex', flexDirection: 'column', gap: '5px' },
     navItem: { display: 'flex', alignItems: 'center', gap: '12px', padding: '12px 15px', borderRadius: '10px', color: '#888', border: 'none', background: 'transparent', textAlign: 'left', cursor: 'pointer', transition: 'all 0.3s', fontSize: '14px' },
-    navActive: { color: 'var(--primary)', background: 'rgba(255, 94, 54, 0.05)' },
+    navActive: { color: 'var(--primary)', background: 'rgba(251, 94, 55, 0.05)' },
     main: { flexGrow: 1, padding: '60px', maxWidth: '1200px', margin: '0 auto' },
     header: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '40px' },
     userBadge: { textAlign: 'right' },
