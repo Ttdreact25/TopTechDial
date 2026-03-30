@@ -216,7 +216,7 @@ const AdminDashboard = () => {
     try {
       await API.delete(`/categories/${id}`);
       setCategories(categories.filter(c => c._id !== id));
-    } catch (err) {
+    } catch {
       alert('Failed to delete category');
     }
   };
