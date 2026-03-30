@@ -81,7 +81,7 @@ const styles = {
     glassSection: { padding: '40px', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '24px', marginBottom: '30px' },
     iconHeading: { color: 'var(--primary)', marginBottom: '20px' },
     list: { marginTop: '15px', color: '#ccc', fontSize: '14px', lineHeight: '2' },
-    importantBox: { marginTop: '20px', padding: '15px', background: 'rgba(255, 179, 0, 0.1)', color: 'orange', border: '1px solid orange', borderRadius: '12px', fontSize: '13px' },
+    importantBox: { marginTop: '20px', padding: '15px', background: 'rgba(43, 41, 37, 0.1)', color: 'orange', border: '1px solid orange', borderRadius: '12px', fontSize: '13px' },
     contactFooter: { marginTop: '60px', textAlign: 'center' },
     contactGrid: { display: 'flex', justifyContent: 'center', gap: '30px', flexWrap: 'wrap' },
     contactCard: { display: 'flex', gap: '10px', alignItems: 'center', color: '#888', fontSize: '14px' }
