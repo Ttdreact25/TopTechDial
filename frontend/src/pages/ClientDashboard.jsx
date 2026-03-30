@@ -101,7 +101,7 @@ const ClientDashboard = () => {
                     <div className="glass-card" style={styles.listingSection}>
                         <div style={styles.sectionHeader}>
                             <h3 style={{ fontSize: '20px', margin: 0, color: 'white' }}>Active Listing Inventory</h3>
-                            <div style={{ fontSize: '13px', color: '#888' }}>Total: {myListings.length} Active</div>
+                            <div style={{ fontSize: '13px', color: '#929191' }}>Total: {myListings.length} Active</div>
                         </div>
                         <div style={styles.listingList}>
                            {myListings.length > 0 ? myListings.map((list) => (
