@@ -186,7 +186,7 @@ const styles = {
     maxWidth: '500px',
     background: 'rgba(255, 255, 255, 0.03)',
     borderRadius: '24px',
-    border: '1px solid rgba(255,255,255,0.08)',
+    border: '1px solid rgba(255, 255, 255, 0.1)',
     padding: '40px',
     backdropFilter: 'blur(10px)',
   },
