@@ -172,7 +172,7 @@ const ClientDashboard = () => {
                               <div style={styles.eAvatar}>R</div>
                               <div style={{ flexGrow: 1 }}>
                                  <div style={{ fontSize: '13px', color: 'white', fontWeight: 'bold' }}>Rajesh Kumar</div>
-                                 <div style={{ fontSize: '11px', color: '#888' }}>Enquiry for Web Development Services</div>
+                                 <div style={{ fontSize: '11px', color: '#8d8c8c' }}>Enquiry for Web Development Services</div>
                               </div>
                               <div style={{ fontSize: '10px', color: 'var(--primary)' }}>2m ago</div>
                            </div>
