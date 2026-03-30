@@ -63,7 +63,7 @@ const ClientDashboard = () => {
                 <header style={styles.header}>
                     <div style={styles.headerLeft}>
                         <h1 style={{ fontSize: '32px', color: 'white' }}>Enterprise Hub</h1>
-                        <p style={{ color: '#888' }}>Management suite for <span style={{ color: 'var(--primary)' }}>{user?.name}'s</span> verified agencies.</p>
+                        <p style={{ color: '#878686' }}>Management suite for <span style={{ color: 'var(--primary)' }}>{user?.name}'s</span> verified agencies.</p>
                     </div>
                     <button className="btn btn-primary" style={{ padding: '12px 25px' }}>
                         <Plus size={20} /> Register New Business
