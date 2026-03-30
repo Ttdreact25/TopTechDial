@@ -103,7 +103,7 @@ const Login = () => {
     if (isForgotPassword) {
       return forgotPasswordStep === 1 ? 'Forgot Password' : 'Reset Password';
     }
-    return isOtpRequired ? 'Verify OTP' : 'Login';
+    return isOtpRequired ? 'Verify your OTP' : 'Login';
   };
 
   const getFormSubmitHandler = () => {
