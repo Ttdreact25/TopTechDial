@@ -208,7 +208,7 @@ const styles = {
     cursor: 'pointer',
     overflow: 'hidden',
     border: '4px solid rgba(253, 96, 57, 0.2)',
-    boxShadow: '0 10px 20px rgba(0,0,0,0.3)',
+    boxShadow: '0 10px 20px rgba(6, 6, 6, 0.3)',
     transition: 'transform 0.3s',
   },
   avatarImg: {
