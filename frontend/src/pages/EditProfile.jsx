@@ -1,13 +1,11 @@
 import { useState, useContext, useEffect, useRef } from 'react';
 import { AuthContext } from '../context/AuthContext';
-import { useLanguage } from '../context/LanguageContext';
 import API from '../services/api';
 import { User, Phone, Lock, Save, ArrowLeft, Camera } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const EditProfile = () => {
   const { user, updateAuthUser } = useContext(AuthContext);
-  const { t } = useLanguage();
   const navigate = useNavigate();
   const fileInputRef = useRef(null);
 
