@@ -90,7 +90,7 @@ const About = () => {
 
             <div className="glass-card" style={styles.ctaBanner}>
                <h2 style={{ fontSize: '28px', color: 'white' }}>Ready to Scale Your Local Presence?</h2>
-               <p style={{ color: 'rgba(255,255,255,0.7)', maxWidth: '600px', margin: '15px auto 30px' }}>Join over 5,000 businesses already using the TopTechDial platform to connect with thousands of daily users and grow their service influence.</p>
+               <p style={{ color: 'rgba(223, 208, 208, 0.7)', maxWidth: '600px', margin: '15px auto 30px' }}>Join over 5,000 businesses already using the TopTechDial platform to connect with thousands of daily users and grow their service influence.</p>
                <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
                   <button className="btn btn-primary" style={{ padding: '15px 40px', fontSize: '16px' }}>Get Started Today</button>
                   <button className="btn btn-secondary" style={{ padding: '15px 40px', fontSize: '16px' }}>View Integration API</button>
@@ -102,7 +102,7 @@ const About = () => {
 };
 
 const styles = {
-   container: { minHeight: '100vh', background: '#050505', color: 'white', position: 'relative', overflowX: 'hidden' },
+   container: { minHeight: '100vh', background: '#160d0d', color: 'white', position: 'relative', overflowX: 'hidden' },
    blurBg: { position: 'absolute', top: '10%', right: '-10%', width: '800px', height: '800px', background: 'radial-gradient(circle, rgba(255, 94, 54, 0.05) 0%, transparent 70%)', zIndex: 0 },
    heroSection: { padding: '160px 20px 100px', textAlign: 'center', background: 'linear-gradient(180deg, rgba(255,255,255,0.02) 0%, transparent 100%)', position: 'relative', zIndex: 1 },
    heroTitle: { fontSize: '56px', fontWeight: '900', marginBottom: '20px', letterSpacing: '-1px', color: 'white' },
@@ -117,7 +117,7 @@ const styles = {
    text: { fontSize: '16px', color: 'var(--text-light)', lineHeight: '1.8', marginBottom: '20px' },
    featureList: { marginTop: '40px', display: 'flex', flexDirection: 'column', gap: '25px' },
    featureItem: { display: 'flex', gap: '20px', alignItems: 'flex-start', fontSize: '14px', color: 'var(--text-light)' },
-   abstractCard: { padding: '40px', border: '1px dashed rgba(255,255,255,0.1)' },
+   abstractCard: { padding: '40px', border: '1px dashed rgba(75, 56, 56, 0.1)' },
    teamSection: { marginBottom: '120px' },
    pillarsGrid: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '40px' },
    pillar: { textAlign: 'center' },

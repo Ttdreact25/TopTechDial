@@ -54,7 +54,6 @@ const BusinessDetails = () => {
   };
 
   useEffect(() => {
-    fetchBusinessData();
     window.scrollTo(0, 0);
   }, [id, user]);
 
