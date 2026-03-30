@@ -222,7 +222,7 @@ const ClientDashboard = () => {
 
 const styles = {
     container: { display: 'flex', minHeight: '100vh', background: '#050505', color: 'white' },
-    sidebar: { width: '280px', background: 'rgba(255,255,255,0.01)', borderRight: '1px solid #1a1a1a', padding: '40px 20px' },
+    sidebar: { width: '280px', background: 'rgba(255,255,255,0.01)', borderRight: '1px solid #141414', padding: '40px 20px' },
     sidebarBrand: { display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '60px' },
     brandLogo: { width: '36px', height: '36px', borderRadius: '10px', background: 'var(--primary-gradient)', display: 'flex', alignItems: 'center', justifyContent: 'center' },
     nav: { display: 'flex', flexDirection: 'column', gap: '5px' },
