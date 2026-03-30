@@ -106,7 +106,7 @@ const styles = {
   bizCard: { padding: '24px', display: 'flex', flexDirection: 'column', gap: '12px', border: '1px solid rgba(255,255,255,0.08)' },
   cardHeader: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' },
   bizTitle: { fontSize: '18px', fontWeight: 'bold' },
-  categoryBadge: { fontSize: '11px', background: 'rgba(255, 94, 54, 0.1)', color: 'var(--primary)', padding: '2px 8px', borderRadius: '4px', display: 'flex', alignItems: 'center', gap: '4px' },
+  categoryBadge: { fontSize: '11px', background: 'rgba(255, 94, 54, 0.11)', color: 'var(--primary)', padding: '2px 8px', borderRadius: '4px', display: 'flex', alignItems: 'center', gap: '4px' },
   metaRow: { display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13px', color: 'var(--text-muted)' },
   cardFooter: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid var(--glass-border)', paddingTop: '16px', marginTop: 'auto' },
   ratingSection: { display: 'flex', alignItems: 'center', gap: '6px' },
