@@ -98,7 +98,7 @@ const SavedItems = () => {
 const styles = {
   container: { minHeight: '100vh', background: '#0F0F1A', padding: '120px 24px 60px 24px', maxWidth: '1200px', margin: '0 auto' },
   header: { marginBottom: '40px' },
-  backBtn: { background: 'none', border: 'none', color: '#666', display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', marginBottom: '16px', padding: 0 },
+  backBtn: { background: 'none', border: 'none', color: '#636262', display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer', marginBottom: '16px', padding: 0 },
   title: { color: 'white', fontSize: '32px', fontWeight: '800', margin: '0 0 8px 0' },
   subtitle: { color: '#666', fontSize: '16px', margin: 0 },
   emptyState: { display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '300px', color: '#666', gap: '12px' },
