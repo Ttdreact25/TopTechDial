@@ -252,7 +252,7 @@ const styles = {
   backBtn: {
     background: 'none',
     border: 'none',
-    color: '#666',
+    color: '#6e6e6e',
     display: 'flex',
     alignItems: 'center',
     gap: '8px',
