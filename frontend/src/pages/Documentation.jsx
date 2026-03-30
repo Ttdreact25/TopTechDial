@@ -143,7 +143,7 @@ const styles = {
   sidebar: { width: '300px', background: 'rgba(255,255,255,0.02)', borderRight: '1px solid var(--border-glass)', padding: '50px 30px' },
   sidebarHeader: { display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '40px' },
   nav: { display: 'flex', flexDirection: 'column', gap: '8px' },
-  navBtn: { background: 'none', border: 'none', color: '#919191', textAlign: 'left', padding: '15px 20px', borderRadius: '12px', cursor: 'pointer', transition: 'all 0.3s', fontSize: '14px' },
+  navBtn: { background: 'none', border: 'none', color: '#8d8c8c', textAlign: 'left', padding: '15px 20px', borderRadius: '12px', cursor: 'pointer', transition: 'all 0.3s', fontSize: '14px' },
   navActive: { background: 'rgba(255, 94, 54, 0.1)', color: 'var(--primary)', fontWeight: 'bold' },
   main: { flexGrow: 1, padding: '100px 80px', maxWidth: '1100px' },
   docTitle: { fontSize: '42px', fontWeight: 'bold', marginBottom: '20px' },
