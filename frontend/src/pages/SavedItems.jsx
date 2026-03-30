@@ -55,7 +55,7 @@ const SavedItems = () => {
       </div>
 
       {loading ? (
-        <p style={{ color: '#888', textAlign: 'center' }}>Syncing your bookmarks...</p>
+        <p style={{ color: '#828282', textAlign: 'center' }}>Syncing your bookmarks...</p>
       ) : savedBusinesses.length === 0 ? (
         <div style={styles.emptyState}>
            <Bookmark size={50} color="#333" />
