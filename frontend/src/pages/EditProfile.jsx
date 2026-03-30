@@ -300,7 +300,7 @@ const styles = {
     background: 'rgba(255, 255, 255, 0.06)',
     borderRadius: '12px',
     padding: '0 16px',
-    border: '1px solid rgba(255, 255, 255, 0.1)',
+    border: '1px solid rgba(23, 22, 22, 0.1)',
     height: '52px',
     transition: 'border-color 0.3s',
   },
