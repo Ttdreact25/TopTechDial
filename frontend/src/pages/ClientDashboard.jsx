@@ -129,7 +129,7 @@ const ClientDashboard = () => {
                              </div>
                            )) : (
                              <div style={{ textAlign: 'center', padding: '60px' }}>
-                                <Briefcase size={48} color="#222" style={{ marginBottom: '20px' }} />
+                                <Briefcase size={48} color="#181818" style={{ marginBottom: '20px' }} />
                                 <h4>No Registered Businesses</h4>
                                 <p style={{ fontSize: '14px', color: '#888' }}>You haven't added any listings to your portfolio yet. Start growing your local brand today.</p>
                              </div>
