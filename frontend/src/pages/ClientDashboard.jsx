@@ -250,7 +250,7 @@ const styles = {
     lStatName: { fontSize: '10px', color: '#5a5959' },
     listingActions: { display: 'flex', gap: '10px' },
     roundAction: { width: '36px', height: '36px', borderRadius: '50%', background: 'rgba(255,255,255,0.03)', border: 'none', color: '#888', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' },
-    growthCard: { padding: '30px', background: 'linear-gradient(180deg, rgba(0, 211, 75, 0.05) 0%, transparent 100%)' },
+    growthCard: { padding: '30px', background: 'linear-gradient(180deg, rgba(2, 207, 74, 0.05) 0%, transparent 100%)' },
     simulatedGraph: { height: '150px', display: 'flex', alignItems: 'flex-end', gap: '10px', marginTop: '30px', paddingBottom: '20px', borderBottom: '1px solid #1a1a1a' },
     graphBar: { width: '25px', background: 'var(--success)', borderRadius: '5px 5px 0 0', opacity: 0.6, cursor: 'pointer', transition: 'all 0.3s' },
     enquiryBrief: { marginTop: '25px', display: 'flex', gap: '15px', alignItems: 'center', padding: '15px', background: 'rgba(255,255,255,0.01)', borderRadius: '12px' },
