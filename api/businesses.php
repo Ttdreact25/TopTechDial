@@ -167,7 +167,7 @@ if ($method == 'GET') {
         $stmt->execute([$userId, $title, $description, $category, $street, $city, $state, $zip, $phone, $email, $website, $whatsapp, $openTime, $closeTime, $lat, $lng]);
         $businessId = $conn->lastInsertId();
         
-        sendResponse(true, 'Business created successfully', ['id' => $businessId], 201);
+        sendResponse(true, 'Business creat successfully', ['id' => $businessId], 201);
     } catch (PDOException $e) {
         sendResponse(false, 'Database Error: ' . $e->getMessage(), null, 500);
     }
