@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 }
 
 // Environment detection
-$isProd = $_SERVER['HTTP_HOST'] === 'toptechdial.com';
+$isProd = $_SERVER['HTTP_HOST'] === 'test.algoalphatech.com';
 
 if ($isProd) {
     // HOSTINGER LIVE SETTINGS
@@ -20,7 +20,7 @@ if ($isProd) {
     define('DB_USER', 'u123456789_ttd_user'); // REPLACE WITH YOUR HOSTINGER DB USER
     define('DB_PASS', 'YOUR_DB_PASSWORD');    // REPLACE WITH YOUR HOSTINGER DB PASS
     define('DB_NAME', 'u123456789_toptechdial'); // REPLACE WITH YOUR HOSTINGER DB NAME
-    define('BASE_URL', 'https://toptechdial.com/api/');
+    define('BASE_URL', 'https://test.algoalphatech.com/api/');
 } else {
     // LOCALHOST SETTINGS
     define('DB_HOST', 'localhost');
